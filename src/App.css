@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f1f1f1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+/*css isolir */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.textp {
+  text-align: justify;
+}
+.texthd {
+  text-align: center;
+}
+.bg-secondari {
+  border-color: #007bff !important;
+  background-color: rgb(75, 206, 14);
 }
